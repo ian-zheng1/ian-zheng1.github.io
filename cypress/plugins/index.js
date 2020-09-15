@@ -28,12 +28,16 @@ const htmlValidateConfig = {
     'close-order': 'error',
     'no-conditional-comment': 0,
     'require-sri': 0,
+<<<<<<< HEAD
     void: [
       'warn',
       {
         style: 'omit'
       }
     ]
+=======
+    void: ['off']
+>>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
   }
 };
 
