@@ -16,11 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-<<<<<<< HEAD
-    "node-fetch": "^2.6.0",
-=======
     "node-fetch": "^2.6.1",
->>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
     "nodemon": "^2.0.4"
   },
   "devDependencies": {
