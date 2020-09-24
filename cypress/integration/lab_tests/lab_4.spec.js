@@ -7,8 +7,6 @@ describe('Lab 4', () => {
     });
   });
 
-<<<<<<< HEAD
-=======
   it('should contain your name and lab number within the page title', () => {
     cy.fixture('test_values').then((json) => {
       cy.title().then(($title) => {
@@ -34,24 +32,16 @@ describe('Lab 4', () => {
     });
   });
 
->>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
   it('Should include an HTML form', () => {
     cy.get('form');
   });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  it('Should include an input field for text, with an id', () => {
-    cy.get('form input[type=text]')
-=======
   it('Should wrap form elements in an unordered list with a flex-outer class, for styling', () => {
     cy.get('form ul.flex-outer');
   });
 
   it('Should have inputs for first and last name, with id of fname and lname', () => {
     cy.get('form ul.flex-outer li input[type=text]')
->>>>>>> 9384ca1fde0bc9a9a86c4e38c2be464070cb6762
       .then(($ta) => {
         const id = $ta.attr('id');
         expect(id).to.exist;
@@ -64,36 +54,14 @@ describe('Lab 4', () => {
       .contains('Last Name');
   });
 
-<<<<<<< HEAD
->>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
-  it('Should include a Textarea field that has 5 rows and 33 columns', () => {
-    cy.get('form textarea')
-=======
   it('Should have inputs for email and phone', () => {
     cy.get('form ul.flex-outer li input[type=tel]')
->>>>>>> 9384ca1fde0bc9a9a86c4e38c2be464070cb6762
       .then(($ta) => {
         const id = $ta.attr('id');
         expect(id).to.exist;
       });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  it('Should have an input field for text, with an attached label element', () => {
-    cy.get('form input[type=text]')
-      .then(($txt) => {
-        const name = $txt.attr('id');
-        cy.get('form label')
-          .then(($lbl) => {
-            const fr = $lbl.attr('for');
-            expect(fr).equals(name);
-          });
-=======
-  it('Your Textarea field should have an id attribute', () => {
-    cy.get('form textarea')
-=======
     cy.get('form ul.flex-outer li input[type=email]')
->>>>>>> 9384ca1fde0bc9a9a86c4e38c2be464070cb6762
       .then(($ta) => {
         const id = $ta.attr('id');
         expect(id).to.exist;
@@ -130,7 +98,6 @@ describe('Lab 4', () => {
       .then(($txt) => {
         const name = $txt.attr('name');
         expect(name).to.exist;
->>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
       });
   });
 
@@ -221,17 +188,6 @@ describe('Lab 4', () => {
     cy.get('form').should('have.attr', 'method', 'post');
     cy.get('button[type=submit]')
       .click();
-<<<<<<< HEAD
-    // TODO: MAKE SURE THIS CHECKS A NEW PAGE
-    // TODO: ASSIGNMENT 1 SPEC
-    cy.contains('hello world', { matchCase: false });
-  });
-
-  it('Should receive an HTML element containing "Hello World" from the server', () => {
-    cy.fixture('test_values').then((json) => {
-      const labUrl = `${json.test_context || ''}/lab_4/`;
-      cy.visit(labUrl); // change URL to match your dev URL
-=======
     cy.contains('hello world', { matchCase: false });
   });
 
@@ -239,21 +195,9 @@ describe('Lab 4', () => {
     cy.fixture('test_values').then((json) => {
       const labUrl = `${json.test_context || ''}/lab_4/`;
       cy.visit(labUrl);
->>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
       cy.get('button[type=submit]')
         .click();
       cy.contains('hello world', { matchCase: false });
     });
   });
-<<<<<<< HEAD
-
-  it('Should link to the lab CSS file and be styled appropriately', () => {
-<<<<<<< HEAD
-    cy.get('body')
-=======
-    cy.get('body');
->>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
-  });
-=======
->>>>>>> 9384ca1fde0bc9a9a86c4e38c2be464070cb6762
 });
