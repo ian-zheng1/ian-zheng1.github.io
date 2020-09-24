@@ -1,1 +1,61 @@
-hello world
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ian Zheng">
+    <title>Lab3: Ian Zheng</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="header">
+        <h1>Ian Zheng's Lab 4</h1>
+    </div>
+    <div class="container">
+        <form action="/api" method="post">
+            <ul class="flex-outer">
+                <li>
+                    <label for="fname">First Name</label>
+                    <input type="text" maxlength="140" id="fname" name="first_name" />
+                </li>
+                <li>
+                    <label for="lname">Last Name</label>
+                    <input type="text" maxlength="140" id="lname" name="last_name" />
+                </li>
+                <li>
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" />
+                </li>
+                <li>
+                    <label for="txt">Text Field</label>
+                    <textarea id="txt" name="user_text" rows="5" cols="33">Gimmie your best meme here :3</textarea>
+                </li>
+                <li>
+                    <label>Age</label>
+                    <ul class="flex-inner">
+                        <li>
+                            <input type="checkbox" id="age1" name="age_range1" value="18-35">
+                            <label for="age1">18-35</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="age2" name="age_range2" value="35-50">
+                            <label for="age2">35-50</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="age3" name="age_range3" value="50-65">
+                            <label for="age3">50-65</label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <button type="submit">Submit</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+    </body>
+</html>
