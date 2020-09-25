@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Ian Zheng">
-    <title>Lab4: Ian Zheng</title>
+    <title>Ian Zheng Lab 4</title>
     <link href="styles.css" rel="stylesheet">
   </head>
 
   <body>
-    <div class="header">
+    <div class="container">
         <h1>Ian Zheng's Lab 4</h1>
     </div>
-    <div class="container">
+    <div class="wrapper">
         <form action="/api" method="post">
             <ul class="flex-outer">
                 <li>
@@ -31,8 +31,8 @@
                     <input type="tel" id="phone" name="phone" />
                 </li>
                 <li>
-                    <label for="txt">Text Field</label>
-                    <textarea id="txt" name="user_text" rows="5" cols="33" placeholder="Gimmie your best meme here :3"></textarea>
+                    <label for="message">Text Field</label>
+                    <textarea id="message" name="message" rows="5" cols="33" placeholder="Gimmie your best meme here :3"></textarea>
                 </li>
                 <li>
                     <p>Age</p>
@@ -52,7 +52,7 @@
                     </ul>
                 </li>
                 <li>
-                    <button type="submit">Submit</button>
+                    <button type="submit" id="button" name="button">Submit Form</button>
                 </li>
             </ul>
         </form>
