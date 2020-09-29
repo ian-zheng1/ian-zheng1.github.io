@@ -6,7 +6,11 @@ answer_key
 public/answer_key
 =======
 public/answer_key/private
+<<<<<<< HEAD
 >>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
+=======
+public/demos
+>>>>>>> d7d1d5f73fbecc8a24117ffeaa14d309aab9d080
 .env
 
 # -------------------------------------------------
