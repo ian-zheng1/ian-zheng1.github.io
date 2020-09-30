@@ -2,8 +2,6 @@
 
 This is the lab support repository for the Fall 2020 version of INST377. 
 
-<<<<<<< HEAD
-=======
 The following steps are to do the following:
 * Give you a LOCAL copy of the lab code that you can mess with - if you know how, you can also use the "fork" button on this repository, clone your fork, and have your own copy that way.
 * give you a remote, public link to your labs as you complete them that can be graded.
@@ -12,7 +10,6 @@ At the end of these instructions, your github pages repository should look like 
 
 It'll be great! But it is tricky to get there.
 
->>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
 ### Installation
 * Clone this repository into Github Desktop using the large green Code button.
 * Open it using the "open this repository in VSCode" button within Github Desktop.
@@ -30,18 +27,6 @@ So: First, get set up with Github Pages by following the instructions present he
 - You are using Github Desktop.
 
 #### Back to VSCode ---> This portion is experimental.
-<<<<<<< HEAD
-In your terminal window, in your INST377 repository (folder):
-* type `git remote -v` - this will list all the remote places you can save your code. It should list one: this repo, called "origin"
-* type `git remote rename origin classfiles`
-* type `git remote -v` and confirm you now have one remote, called "classfiles"
-* in Github, find the link to your **Github Pages** repository. It should be something like "https://github.com/YOUR-GITHUB-USERNAME/YOUR-GITHUB-USERNAME.github.io.git"
-* type `git remote add origin [THE LINK YOU JUST FOUND]` and hit enter.
-* type `git remote -v` and check that you have two possible remote repositories: the course repo, and your Github Pages repo.
-* Type `git push origin master --force-with-lease`
-    * `--force-with-lease` is like saying "Do it now but don't overwrite any serious local changes."
-* You have now **overwritten your Github Pages repository**
-=======
 In your terminal window, in your copy of this repository (folder) - it should be called "INST377-FA2020":
 * type `git remote -v` - this will list all the remote places you can save your code.
     * It should list one: this repo, called "origin" - `origin https://github.com/aleitch1/INST377-FA2020`
@@ -58,7 +43,6 @@ In your terminal window, in your copy of this repository (folder) - it should be
     * If it doesn't work, you can use `git push origin master --force`, but it will blow away all changes on your remote. Use with caution.
 * You have now **overwritten your Github Pages repository**
     * Check by navigating to `https://github.com/your-username/your-username.github.io` - a bunch of lab files should be there.
->>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
 * You should be able to check that your labs are visible online by visiting `https://YOUR-GITHUB-USERNAME.github.io/public/lab_1/index.html`
 * Changes to your repository should be visible in Github Desktop
 
@@ -66,8 +50,6 @@ In your terminal window, in your copy of this repository (folder) - it should be
 It will not let you keep tabs on both remotes at once, there's a four-year-long conversation on the topic available below if you care.
 Link For Reference: [Github Desktop supports only one remote](https://github.com/desktop/desktop/issues/1442)
 
-<<<<<<< HEAD
-=======
 **To set your repository remote (where you publish code to) in GH Desktop**
 * [Setting Your Remote On Github Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/changing-a-remotes-url-from-github-desktop)
 
@@ -93,14 +75,10 @@ Back in the VSCode terminal in your repository, type `git pull origin master --a
 * You can delete all local copies of everything and re-clone your remote from your Github Pages Repo
 * If you have to delete everything and re-clone, please `git remote add classfiles https://github.com/aleitch1/INST377-FA2020.git` so you can pull updates from the class repository.
 
->>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
 ##### How To Update Your Own Remote From The Main Lab Files
 You will need to pull from the class repository periodically as we go through the semester, though hopefully not for the first few weeks.
 To do this, in VSCode:
 * Open a terminal window.
 * Type `git pull classfiles master`, and you should have the updated files.
-<<<<<<< HEAD
-=======
 * You should do this pretty much every time you get working with the labs.
->>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
 * If it messes with you, which it may do, please join us for office hours and we'll work it out.
