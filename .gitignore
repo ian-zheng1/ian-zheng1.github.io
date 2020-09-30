@@ -1,26 +1,15 @@
 # -------------------------------------------------
 # Course specific
 # -------------------------------------------------
-<<<<<<< HEAD
 answer_key
 public/answer_key
-=======
-public/answer_key/private
-<<<<<<< HEAD
->>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
-=======
-public/demos
->>>>>>> d7d1d5f73fbecc8a24117ffeaa14d309aab9d080
 .env
 
 # -------------------------------------------------
 # Example specs from Cypress
 # -------------------------------------------------
 cypress/integration/examples
-<<<<<<< HEAD
-=======
 cypress/integration/grading
->>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
 cypress/fixtures/
 
 # -------------------------------------------------
@@ -52,10 +41,6 @@ npm-debug.log
 # Commenting this out is preferred by some people, see
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 # -------------------------------------------------
-<<<<<<< HEAD
-# node_modules
-=======
->>>>>>> 086bf5b2ffe3212f9869deb5637da8015660f4b3
 bower_components
 node_modules
 **/*/node_modules
