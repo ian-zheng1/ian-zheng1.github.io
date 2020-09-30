@@ -17,6 +17,6 @@ body{
     justify-content: space-between;
 }
 
-.wrapper .container{
+.wrapper > .container > div{
     margin-right: 15px;
 }
