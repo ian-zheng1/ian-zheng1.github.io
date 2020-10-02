@@ -33,10 +33,7 @@ h1{
 }
 .first{
     margin-bottom: 5px;
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 .first, .second{
     background-color: #DDDBF1;
@@ -55,6 +52,7 @@ h1{
     border: 10px;
     border-radius: 1px;
     padding: 4px;
+    flex: 0 1 auto;
 }
 
 @media screen and (max-width: 960px)
