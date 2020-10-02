@@ -14,7 +14,7 @@ h1{
     flex-wrap: wrap;
     align-items: center;  
     background-color: #5070b1;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .header img{
     width: 300px;
@@ -33,8 +33,10 @@ h1{
 }
 .first{
     margin-bottom: 5px;
+    display: flex;
     flex-direction: row;
-
+    justify-content: center;
+    align-items: center;
 }
 .first, .second{
     background-color: #DDDBF1;
@@ -50,10 +52,9 @@ h1{
 }
 
 .first p {
-    background-color: #D1BEB0;
-    padding: 12px;
-    border-radius: 4px;
-    flex: 0 1 auto;
+    border: 10px;
+    border-radius: 1px;
+    padding: 4px;
 }
 
 @media screen and (max-width: 960px)
