@@ -1,11 +1,15 @@
 body {
-    font-family: 'Balsamiq Sans', cursive;
     background-color: #DDDBF1;
     color: black;
     padding: 50px 0;
 }
 h1{
     text-align: center;
+    font-family: 'Lobster', cursive;
+}
+h2{
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Lobster', cursive;
 }
 .header{
     margin-bottom: 15px;
@@ -15,6 +19,7 @@ h1{
     align-items: center;  
     background-color: #5070b1;
     justify-content: space-around;
+    
 }
 .header img{
     width: 300px;
@@ -35,9 +40,10 @@ h1{
     margin-bottom: 5px;
     flex-direction: row;
 }
-.first, .second{
-    background-color: #DDDBF1;
+.header{
+    font-family: 'Lobster', cursive;
 }
+
 .first img
 {
     display: flex;
@@ -53,6 +59,7 @@ h1{
     border-radius: 1px;
     padding: 4px;
     flex: 0 1 auto;
+   
 }
 
 @media screen and (max-width: 960px)
